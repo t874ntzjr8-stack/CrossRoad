@@ -1,0 +1,16 @@
+/*
+    The complete pack of the CrossRoad_Cinema theme. This file includes all the modules and the main theme.
+    If you wish to use only some of the modules, you can import them individually.
+    You can grab the base theme by changing CrossRoad.css to base.css in the first line.
+*/
+
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/base.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/static-sidebar.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/central-libraries-small.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/change-logo.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/count-indicators.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/forgot-password.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/hide-my-media.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/moving-cards.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/smaller-cast.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/floating-progress.css");
