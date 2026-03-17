@@ -5,7 +5,7 @@
 */
 
 :root {
-    --logo-url: url('https://github.com/t874ntzjr8-stack/CrossRoadCinema/blob/main/assets/banner.png');
+    --logo-url: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/assets/banner.png");
 }
 
 .pageTitleWithDefaultLogo,
