@@ -1,13 +1,12 @@
+
 :root {
-    --cr-logo: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/logo.png");
+    --cr-logo: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.1/assets/logo.png");
 }
 
-/* Header logo (img replacement) */
-.headerLogo {
-    content: var(--cr-logo);
-}
-
-/* Splash screen */
-.splashLogo {
+/* Force override Jellyfin logo */
+.pageTitleWithDefaultLogo {
     background-image: var(--cr-logo) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
