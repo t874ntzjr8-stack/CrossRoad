@@ -217,8 +217,32 @@ html {
     padding-top: 1.2em;
 }
 
+/* Drawer Logo — sits above the scroll container, height matches mainDrawer-scrollContainer margin-top */
+.mainDrawer {
+    position: relative;
+}
+
+.mainDrawer-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-image: url('https://your-logo-url-here.png'); /* ← Replace with your logo URL */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 1;
+    padding: 1em;
+}
+
+/* Hide logo on mobile where there is no fixed drawer */
+.layout-mobile .mainDrawer-logo {
+    display: none;
+}
+
 .layout-desktop .mainDrawer-scrollContainer {
-    margin-top: 100px;
+    margin-top: 100px; /* Matches .mainDrawer-logo height — adjust both together if resizing */
 }
 
 .navMenuOption,
