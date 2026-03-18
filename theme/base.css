@@ -228,7 +228,7 @@ html {
     left: 0;
     right: 0;
     height: 100px;
-    background-image: url('https://your-logo-url-here.png'); /* ← Replace with your logo URL */
+    background-image: url('https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/assets/logo.png'); /* ← Replace with your logo URL */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
