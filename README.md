@@ -3,7 +3,7 @@
 
 
 
-( <a href="https://github.com/t874ntzjr8-stack-welcome">About</a> - <a href="https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/assets/screenshots</a> )
+( <a href="https://github.com/t874ntzjr8-stack-welcome">About</a> - <a href="https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/screenshots</a> )
 
 ## ℹ️ Welcome
 
@@ -20,7 +20,7 @@ The following line includes the base theme as well as all our optional modules. 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/compleete.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/theme/compleete.css");
 ```
 
 </div>
