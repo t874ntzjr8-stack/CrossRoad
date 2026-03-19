@@ -9,6 +9,6 @@
 }
 
 .pageTitleWithDefaultLogo,
-.spashLogo {
+.splashLogo {
     background-image: var(--logo-url) !important;
 }
