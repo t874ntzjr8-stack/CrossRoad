@@ -3,7 +3,7 @@
 
 
 
-( <a href="https://github.com/t874ntzjr8-stack-welcome">About</a> - <a href="https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/screenshots</a> )
+( <a href="https://github.com/t874ntzjr8-stack-welcome">About</a> - <a href="https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/screenshots"Screenshots</a> )
 
 ## ℹ️ Welcome
 
@@ -20,12 +20,12 @@ The following line includes the base theme as well as all our optional modules. 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/theme/compleete.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/theme/complete.css");
 ```
 
 </div>
 
-If you just want the theme without all our modules integrated, simply copy this line instead. Feel free to add the modules seperately.
+If you just want the theme without all our modules integrated, simply copy this line instead. Feel free to add the modules separately.
 
 <div align="left">
 
@@ -85,6 +85,6 @@ You will find these within the respective modules folder, to cause less confusio
 
 
 
-</div># CrossRoad
+</div> # CrossRoad
 Jellyfin theme
 
