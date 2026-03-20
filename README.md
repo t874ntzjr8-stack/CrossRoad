@@ -3,8 +3,7 @@
 
 
 
-( <a href="https://github.com/t874ntzjr8-stack-welcome">About</a> - <a href="https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/assets/screenshots</a> )
-
+( <a href="https://github.com/t874ntzjr8-stack-welcome">About</a> - <a href="https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/screenshots">Screenshots</a> )
 ## ℹ️ Welcome
 
 This project brings a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. The theme is designed to be modular and compact, allowing server owners to easily customize their Jellyfin experience.
@@ -20,17 +19,17 @@ The following line includes the base theme as well as all our optional modules. 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/compleete.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/theme/complete.css");
 ```
 
 </div>
 
-If you just want the theme without all our modules integrated, simply copy this line instead. Feel free to add the modules seperately.
+If you just want the theme without all our modules integrated, simply copy this line instead. Feel free to add the modules separately.
 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/base.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/theme/base.css");
 ```
 
 </div>
@@ -58,7 +57,7 @@ Not sure if you like our colour scheme? No worries, we allow easy access to our 
     --theme-menu-background-colour: #3a3a3a80;
     --theme-menu-shadow-colour: #fff3;
     --theme-base-colour: #696969;
-    --theme--hover-colour: #dbdbdb;
+    --theme-hover-colour: #dbdbdb;
     --theme-restart-colour: #da87287e;
     --theme-shutdown-colour: #c21c1c9d;
     --theme-progress-bar-colour: #cfcfcf;
@@ -85,5 +84,7 @@ You will find these within the respective modules folder, to cause less confusio
 
 
 
-</div># CrossRoad
+ # CrossRoad </div>
 Jellyfin theme
+
+

@@ -1,5 +1,5 @@
 <div align="center">
-<img src=""https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/assets/logo.png?raw=true" alt="Logo" width="125"/>
+<img src="https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/logo.png?raw=true" alt="Logo" width="125"/>
 
 ## 🧩 Modules
 
@@ -12,7 +12,7 @@ The general format to install a module is as followed, you will need to replace 
 <div align="left">
 
 ```css
-@import url(""https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@main/theme/modules/<name>.css");
+@import url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/theme/modules/<name>.css");
 ```
 
 </div>
