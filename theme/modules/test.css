@@ -1,13 +1,16 @@
-h3.pageTitle::after {
-    content: "";
-    display: block;
-    width: 300px;   /* adjust if needed */
-    height: 80px;   /* adjust if needed */
-    background-image: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/banner.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+/* Hide the default logo image */
+a[href="/"] img {
+    display: none !important;
 }
 
-h3.pageTitle {
-    visibility: hidden;
+/* Replace with your banner */
+a[href="/"] {
+    background-image: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/banner.png") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: left center;
+
+    width: 220px;
+    height: 60px;
+    display: block;
 }
