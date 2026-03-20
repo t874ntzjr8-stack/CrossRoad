@@ -9,7 +9,7 @@
 .skinHeader::before {
     content: "";
     position: absolute;
-    left: 530px;
+    left: 200px;
     top: 5px;
 
     width: 300px;   /* adjust */

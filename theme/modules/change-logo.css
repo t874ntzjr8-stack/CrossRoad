@@ -1,12 +1,13 @@
 
-:root {
-    --cr-logo: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/logo.png");
+.MuiListItemIcon-root img {
+    display: none; /* hide original image */
 }
 
-/* Force override Jellyfin logo */
-.pageTitleWithDefaultLogo {
-    background-image: var(--cr-logo) !important;
+.MuiListItemIcon-root {
+    background-image: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    width: 40px;   /* adjust */
+    height: 40px;  /* adjust */
 }
