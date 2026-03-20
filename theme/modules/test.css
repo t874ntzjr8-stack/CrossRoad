@@ -1,0 +1,13 @@
+h3.pageTitle::after {
+    content: "";
+    display: block;
+    width: 300px;   /* adjust if needed */
+    height: 80px;   /* adjust if needed */
+    background-image: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h3.pageTitle {
+    visibility: hidden;
+}
