@@ -1,16 +1,24 @@
-/* Hide the default logo image */
-a[href="/"] img {
+/* Hide built-in logo visuals */
+.skinHeader .headerLogo,
+.skinHeader img,
+.skinHeader .pageTitle {
     display: none !important;
 }
 
-/* Replace with your banner */
-a[href="/"] {
-    background-image: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/banner.png") !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
+/* Add your custom logo */
+.skinHeader::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 10px;
+
+    width: 220px;   /* adjust */
+    height: 60px;   /* adjust */
+
+    background-image: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: left center;
 
-    width: 220px;
-    height: 60px;
-    display: block;
+    z-index: 1000;
 }
