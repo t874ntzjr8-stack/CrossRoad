@@ -1,14 +1,24 @@
-/*
-    This module will change the Jellyfin logo to a custom one.
-    This allows you to white-label your Jellyfin instance slightly.
-    This can be used as a standalone module.
-*/
-
-:root {
-    --logo-url: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/banner.png");
+/* Hide built-in logo visuals */
+.skinHeader .headerLogo,
+.skinHeader img,
+.skinHeader .pageTitle {
+    display: none !important;
 }
 
-.pageTitleWithDefaultLogo,
-.splashLogo {
-    background-image: var(--logo-url) !important;
+/* Add your custom logo */
+.skinHeader::before {
+    content: "";
+    position: absolute;
+    left: 530px;
+    top: 5px;
+
+    width: 300px;   /* adjust */
+    height: 70px;   /* adjust */
+
+    background-image: url("https://cdn.jsdelivr.net/gh/t874ntzjr8-stack/CrossRoad@v1.0/assets/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    z-index: 1000;
 }
